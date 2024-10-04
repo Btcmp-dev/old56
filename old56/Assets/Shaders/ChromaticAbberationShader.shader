@@ -1,7 +1,8 @@
 Shader "Custom/ChromaticAberrationShader" {
     Properties {
         _MainTex ("Texture", 2D) = "white" {}
-        _AberrationAmount ("Aberration Amount", Float) = 0.01
+        _AberrationAmount ("Aberration Amount", Float) = 0
+        _AberrationDirection ("Aberration Direction", Vector) = (0, 0, 0, 0)
     }
     SubShader {
         Tags { "Queue"="Transparent" "RenderType"="Transparent" }
@@ -31,6 +32,7 @@ Shader "Custom/ChromaticAberrationShader" {
             sampler2D _MainTex;
             float4 _MainTex_ST;
             float _AberrationAmount;
+            float2 _AberrationDirection;
 
             v2f vert(appdata v) {
                 v2f o;
@@ -41,10 +43,12 @@ Shader "Custom/ChromaticAberrationShader" {
 
             fixed4 frag(v2f i) : SV_Target {
                 fixed4 col = tex2D(_MainTex, i.uv);
+
+                
                 // Calculate the chromatic aberration
-                float2 redUV = i.uv + float2(_AberrationAmount, 0);
+                float2 redUV = i.uv + _AberrationDirection * _AberrationAmount;
                 float2 greenUV = i.uv;
-                float2 blueUV = i.uv - float2(_AberrationAmount, 0);
+                float2 blueUV = i.uv - _AberrationDirection * _AberrationAmount;
                 // Sample the texture at the different UVs
                 fixed4 redCol = tex2D(_MainTex, redUV);
                 fixed4 greenCol = tex2D(_MainTex, greenUV);

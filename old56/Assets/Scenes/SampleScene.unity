@@ -140,90 +140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundPath: 
---- !u!1 &133236641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4094142783070690288, guid: d73c3464ac50dc742b00cb90fce5c7fa, type: 3}
-  m_PrefabInstance: {fileID: 528690368}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &133236642
-MonoBehaviour:
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 419500734}
-  - component: {fileID: 419500733}
-  - component: {fileID: 419500735}
-  m_Layer: 0
-  m_Name: theplaceholder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &419500733
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419500732}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 3ec0592a87873884eaf4efcc2c76c261, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cb5fcad68f2d7a04fa9c41234f1923e3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5, y: 2.91}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &419500734
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133236641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e9eecfb3c6f6e84bb4bf630260bf635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundPath: 
 --- !u!1001 &182695168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -580,10 +496,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4094142783070690288, guid: d73c3464ac50dc742b00cb90fce5c7fa, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 133236642}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d73c3464ac50dc742b00cb90fce5c7fa, type: 3}
 --- !u!1 &619394800
 GameObject:
@@ -1011,6 +924,7 @@ GameObject:
   - component: {fileID: 1745291353}
   - component: {fileID: 1745291356}
   - component: {fileID: 1745291357}
+  - component: {fileID: 1745291358}
   m_Layer: 3
   m_Name: tHero
   m_TagString: Untagged
@@ -1038,7 +952,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 3ec0592a87873884eaf4efcc2c76c261, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1059,7 +973,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 7895a529a50aff4418ffd8dfacb16690, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb5fcad68f2d7a04fa9c41234f1923e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1305,6 +1219,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1160495768}
+--- !u!114 &1745291358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745291347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f0e9106f771414d902e9e9b91ca57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chromaticAberrationShader: {fileID: 4800000, guid: 154ad2df867e66041a729a4db2555b4d, type: 3}
 --- !u!1 &1773149686
 GameObject:
   m_ObjectHideFlags: 0
