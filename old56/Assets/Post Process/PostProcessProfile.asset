@@ -1345,13 +1345,13 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 63
+    value: 36
   intensityX:
-    overrideState: 0
+    overrideState: 1
     value: 1
   intensityY:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0.84
   centerX:
     overrideState: 0
     value: 0
@@ -1396,8 +1396,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   rounded:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   mask:
     overrideState: 0
     value: {fileID: 0}
