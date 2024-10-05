@@ -1,63 +1,67 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MoveController : MonoBehaviour
 {
-    public float speed = 5f;
+   
+
+    private PlayerInputActions playerInputAction;
     private Rigidbody2D rb;
     private Vector2 direction;
-
-    bool canDashing = true;
-    bool isDashing = false;
+    private bool canDashing = true;
+    private bool isDashing = false;
     float dashindTime = 0.2f;
     float dashCoolDown = 3f;
-    //float dashingPower = 10f;
+    
 
-    [SerializeField] private TrailRenderer tr;
+    [SerializeField] private float movingSpeed = 10f;
+    [SerializeField] private float dashSpeed = 4f;
+    [SerializeField] private TrailRenderer trailRenderer;
 
-    private void Start()
-    {
-        if (isDashing)
-        {
-            return;
-        }
-        rb = GetComponent<Rigidbody2D>();
-    }
-    void Update()
-    {
-        if (isDashing)
-        {
-            return;
-        }
 
-        direction.x = Input.GetAxisRaw("Horizontal");
-        direction.y = Input.GetAxisRaw("Vertical");
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDashing)
-        {
-            StartCoroutine(Dash());
-        }
+    private void Awake() {
+        rb = GetComponent<Rigidbody2D> ();
+       playerInputAction = new PlayerInputActions ();
+       playerInputAction.Enable ();
     }
 
-    private void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+    private void Start() {
+        playerInputAction.Combat.Dash.performed += _ => Dash();
     }
 
-    private IEnumerator Dash()
-    {
-        canDashing = false;
-        isDashing = true;
-        tr.emitting = true;
-        speed *= 5; // юзануть деш повер
-        yield return new WaitForSeconds(dashindTime);
 
-        speed /= 5; // юзануть деш повер
-        tr.emitting = false;
+    private void Update() {
+    }
+    private Vector2 GetMovementVector(){
+        Vector2 inputVector = playerInputAction.Player.Move.ReadValue<Vector2>();
+
+        return inputVector;
+    }
+
+    private void FixedUpdate() {
+
+        Vector2 inputVector = GetMovementVector();
+
+        inputVector = inputVector.normalized;
+
+        rb.MovePosition(rb.position + inputVector *(movingSpeed * Time.fixedDeltaTime));
+    }
+    private void Dash() {
+        if (!isDashing) {
+            isDashing = true;
+            movingSpeed *= dashSpeed;
+            trailRenderer.emitting = true;
+            StartCoroutine(EndDashRoutine());
+        }
+    }
+
+    private IEnumerator EndDashRoutine() {
+        yield return new WaitForSeconds (dashindTime);
+        movingSpeed /= dashSpeed;
+        trailRenderer.emitting = false;
+        yield return new WaitForSeconds (dashCoolDown);
         isDashing = false;
-        yield return new WaitForSeconds(dashCoolDown);
-
-        canDashing = true;
     }
 }
