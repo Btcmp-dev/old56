@@ -88,10 +88,10 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Documents/FMOD Studio/test1/test1.fspro
-  sourceBankPath: ../Documents/FMOD Studio/test1/Build
+  sourceProjectPath: Assets/Assets/Music1/Music1.fspro
+  sourceBankPath: Assets/Assets/Music1/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -128,18 +128,18 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131619
   Platforms:
-  - {fileID: 7203988118063839293}
-  - {fileID: 7894602615945447044}
-  - {fileID: 5386160404401445278}
-  - {fileID: 5718423299042286665}
-  - {fileID: 7612105373183919673}
-  - {fileID: 5687709190226683905}
+  - {fileID: -4304967847412222854}
+  - {fileID: 41044595192019217}
+  - {fileID: 567013697857254065}
+  - {fileID: 2344836416602004110}
   - {fileID: 2712187223771262298}
   - {fileID: 3744516199283034104}
-  - {fileID: 567013697857254065}
-  - {fileID: 41044595192019217}
-  - {fileID: 2344836416602004110}
-  - {fileID: -4304967847412222854}
+  - {fileID: 5386160404401445278}
+  - {fileID: 5687709190226683905}
+  - {fileID: 5718423299042286665}
+  - {fileID: 7203988118063839293}
+  - {fileID: 7612105373183919673}
+  - {fileID: 7894602615945447044}
   MigratedPlatforms: 080000001200000006000000050000000b000000000000000a000000090000000c000000150000000200000001000000
 --- !u!114 &41044595192019217
 MonoBehaviour:
@@ -941,16 +941,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 46fbfdf3fc43db0458918377fd40293e
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
-  - 52eb9df5db46521439908db3a29a1bbb
-  - b7716510a1f36934c87976f3a81dbf3d
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - e7a046c753c3c3d4aacc91f6597f310d
   - de700ef3f37a49b58a57ae3addf01ad9
   - 0f8eb3f400726694eb47beb1a9f94ce8
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - 2c5177b11d81d824dbb064f9ac8527da
+  - 46fbfdf3fc43db0458918377fd40293e
+  - b7716510a1f36934c87976f3a81dbf3d
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 52eb9df5db46521439908db3a29a1bbb
   codecChannels:
     Value: []
     HasValue: 0

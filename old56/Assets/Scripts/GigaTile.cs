@@ -9,4 +9,6 @@ public class GigaTile : Tile
     public string surfaceType;
 
     public string pathToSound;
+
+    public float speedLimit;
 }

@@ -35,4 +35,5 @@ MonoBehaviour:
   m_Flags: 1
   m_ColliderType: 1
   surfaceType: 
-  pathToSound: event:/Boom
+  pathToSound: event:/Aboba
+  speedLimit: 0

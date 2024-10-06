@@ -20,6 +20,81 @@ MonoBehaviour:
   - Name: Desktop
     Value: 754
   Exists: 1
+--- !u!114 &-6479663728477713095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level11
+  m_EditorClassIdentifier: 
+  Path: event:/Level11
+  Guid:
+    Data1: 1435945972
+    Data2: 1334546260
+    Data3: -783762265
+    Data4: -1860731932
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 154279
+--- !u!114 &-3482645832649346390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Assets/Music1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638637985358719698
+  FileSizes:
+  - Name: Desktop
+    Value: 3691360
+  Exists: 1
+--- !u!114 &-3415362014949945855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level1
+  m_EditorClassIdentifier: 
+  Path: event:/Level1
+  Guid:
+    Data1: -342064873
+    Data2: 1216316029
+    Data3: 61828028
+    Data4: -851543094
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3024976971259215570}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 134000
 --- !u!114 &-1185303042651817868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,17 +128,69 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8782504329612673701}
-  - {fileID: -1185303042651817868}
+  - {fileID: 1518500297530027839}
+  - {fileID: -3482645832649346390}
   EditorEvents:
-  - {fileID: 3914681435885614039}
+  - {fileID: -3415362014949945855}
+  - {fileID: 4796972242235351402}
+  - {fileID: 6497729032876336282}
+  - {fileID: 8145646605342750829}
+  - {fileID: 5616098975419384640}
+  - {fileID: -6479663728477713095}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1185303042651817868}
+  - {fileID: -3482645832649346390}
   StringsBanks:
-  - {fileID: -8782504329612673701}
-  cacheTime: 638634893098414924
+  - {fileID: 1518500297530027839}
+  cacheTime: 638637985358739667
   cacheVersion: 131619
+--- !u!114 &1518500297530027839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Assets/Music1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638637985358739667
+  FileSizes:
+  - Name: Desktop
+    Value: 1008
+  Exists: 1
+--- !u!114 &3024976971259215570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level1/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 1304858405
+    data2: 4163123449
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Value A
+  - Value B
+  - Value C
+  Exists: 1
 --- !u!114 &3914681435885614039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,3 +218,111 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &4796972242235351402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/111
+  m_EditorClassIdentifier: 
+  Path: event:/111
+  Guid:
+    Data1: -1270538192
+    Data2: 1217959951
+    Data3: -1213217637
+    Data4: -757773302
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5616098975419384640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vitalya
+  m_EditorClassIdentifier: 
+  Path: event:/Vitalya
+  Guid:
+    Data1: 2012955029
+    Data2: 1129191074
+    Data3: -705751923
+    Data4: 1190150082
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 597
+--- !u!114 &6497729032876336282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Aboba
+  m_EditorClassIdentifier: 
+  Path: event:/Aboba
+  Guid:
+    Data1: 1741071672
+    Data2: 1129587439
+    Data3: -1677621328
+    Data4: -1376384910
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 597
+--- !u!114 &8145646605342750829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Obamka
+  m_EditorClassIdentifier: 
+  Path: event:/Obamka
+  Guid:
+    Data1: 2006679358
+    Data2: 1127342932
+    Data3: 262066600
+    Data4: 880171555
+  Banks:
+  - {fileID: -3482645832649346390}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3081
