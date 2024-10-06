@@ -35,3 +35,5 @@ MonoBehaviour:
   m_Flags: 1
   m_ColliderType: 1
   surfaceType: 
+  pathToSound: event:/Obamka
+  speedLimit: 0
