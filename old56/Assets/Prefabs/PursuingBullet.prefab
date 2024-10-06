@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3912552415122647970}
   - component: {fileID: 1757570759017615887}
   - component: {fileID: 2232555465411314328}
+  - component: {fileID: 974613779407836341}
   m_Layer: 7
   m_Name: PursuingBullet
   m_TagString: Untagged
@@ -56,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 3ec0592a87873884eaf4efcc2c76c261, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -180,3 +181,16 @@ CircleCollider2D:
   m_Offset: {x: -0.0024299622, y: 0}
   serializedVersion: 2
   m_Radius: 0.20728874
+--- !u!114 &974613779407836341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4094142783070690288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f0e9106f771414d902e9e9b91ca57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chromaticAberrationShader: {fileID: 4800000, guid: 154ad2df867e66041a729a4db2555b4d, type: 3}
