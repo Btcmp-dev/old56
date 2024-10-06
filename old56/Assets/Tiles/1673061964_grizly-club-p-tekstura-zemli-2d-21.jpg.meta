@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2884fc8af7c89b24d86f6df530665f05
+guid: d12b3f776fe82d1408b13447e85bd39c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -94,33 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -134,7 +108,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9901fe55f22ed48a198068e2ab3e07
+      internalID: -55650056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 988
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766936e667da8344aac342e6938d4272
+      internalID: -622183202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 988
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86123b4d976670a45b18afed299859c5
+      internalID: -809562054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 988
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f058624be80412b40a316a561f5ba953
+      internalID: -157734204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 659
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875ccc0b87d35ef439f33b6133015442
+      internalID: -823952540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 659
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758668cd80c45fc45a6f3ae0578e7554
+      internalID: 999391055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 659
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae747d8b014e9914c8043f981f9014a9
+      internalID: -689336577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_7
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 659
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6decb1c1e86de4bb130995e6b63a58
+      internalID: -653023896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b060f6f481254786416e677e24b6a
+      internalID: -947620915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 330
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61568e75a224187448d8acef305663cb
+      internalID: -1061182301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 330
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b9e4f84680dd45b6f11601f497030
+      internalID: -132883763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_11
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 330
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0885c77c81c1a4598deca14bbed6d4
+      internalID: 1964597429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d120406e7ad259e4a8cd88baa07217f2
+      internalID: -1062861098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d393a6480759e3a4d80d21f06484b2e9
+      internalID: 134721982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b745643a6a40744809169d519b53cf
+      internalID: 689191116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1673061964_grizly-club-p-tekstura-zemli-2d-21_15
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1
+        width: 310
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68730454bf3f3d14387948dc186f9a44
+      internalID: 902328971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +455,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_0: -55650056
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_1: -622183202
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_10: -132883763
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_11: 1964597429
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_12: -1062861098
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_13: 134721982
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_14: 689191116
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_15: 902328971
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_2: -809562054
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_3: -157734204
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_4: -823952540
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_5: 999391055
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_6: -689336577
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_7: -653023896
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_8: -947620915
+      1673061964_grizly-club-p-tekstura-zemli-2d-21_9: -1061182301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
