@@ -11,6 +11,9 @@ public class BulletSpawner : MonoBehaviour
     public float bulletSpeed = 5f; // Скорость пули
     public float shootingDistance = 15f; // Дальность стрельбы
 
+    public float shootingAngle = 360f; //Разброс одного выстрела 
+    public float zeroAngle = 0f; //Угол первой пули в выстреле
+
     public bool canShoot = true;
     private float distance;
     private bool isPursuing;
@@ -34,8 +37,8 @@ public class BulletSpawner : MonoBehaviour
     {
         Debug.Log("Shooting...");
         canShoot = false;
-        float angleStep = 360f / bulletsPerWave; // Шаг между пулями в градусах
-        float angle = 0f;
+        float angleStep = shootingAngle / bulletsPerWave; // Шаг между пулями в градусах
+        float angle = zeroAngle;
 
         for (int i = 0; i < bulletsPerWave; i++)
         {
