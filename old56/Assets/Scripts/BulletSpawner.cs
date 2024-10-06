@@ -14,9 +14,12 @@ public class BulletSpawner : MonoBehaviour
     public float shootingAngle = 360f; //Разброс одного выстрела 
     public float zeroAngle = 0f; //Угол первой пули в выстреле
 
+    public bool isShootPlayer = true;
+
     public bool canShoot = true;
     private float distance;
     private bool isPursuing;
+    
 
     private void Start()
     {
@@ -43,7 +46,11 @@ public class BulletSpawner : MonoBehaviour
         for (int i = 0; i < bulletsPerWave; i++)
         {
             Vector2 bulletDir = (player.transform.position - transform.position).normalized;
-            //Vector3 bulletDirQ = new Vector3(bulletDir.x, bulletDir.y, 0);
+
+            if (!isShootPlayer)
+            {
+                bulletDir = new Vector2(1, 0); //задает с статичный вектор
+            }
 
             // Создаём пулю и задаём ей направление
             GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, angle));
@@ -55,8 +62,8 @@ public class BulletSpawner : MonoBehaviour
             }
             else
             {
-                bullet.GetComponent<EnemyBullet>().direction = bulletDir;
-                bullet.GetComponent<EnemyBullet>().bulletSpeed = bulletSpeed;
+               bullet.GetComponent<EnemyBullet>().direction = bulletDir;
+               bullet.GetComponent<EnemyBullet>().bulletSpeed = bulletSpeed;
             }
 
             // Увеличиваем угол для следующей пули
